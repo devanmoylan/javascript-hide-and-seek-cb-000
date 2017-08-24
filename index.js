@@ -15,3 +15,7 @@ function increaseRankBy(n) {
   return list
 }
 
+function deepestChild() {
+  return document.getElementById('grand-node').querySelector('.deep-nest');
+}
+
